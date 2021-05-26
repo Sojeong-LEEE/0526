@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>abstract 추상화</title>
+</head>
+<body>
+<script>
+    /* 콜드브루 1잔 */
+    /* 아메리카노 2, 카페라떼 1 */
+    /* 치즈케익 1, 오렌지 주스1 */
+
+    
+    console.log(4500); /* 4500이 아메리카노 인지 모른다. */
+    console.log(4100 * 2 + 5500 * 1);
+    console.log(11000 * 1 + 6100 * 1);
+    
+    
+    var americano = 4500;
+    console.log(americano * 1 + 6100 * 1);
+
+    /* 변수선언 */
+    /* = 할당 연산자다 */
+    /* variable(변수)
+    ECMAS var */
+    var americano = 4800;
+    var latte = 5100;
+    var sandwich = 11000;
+    console.log(4100);
+    console.log(americano + americano);
+    console.log(americano * 2);
+
+    console.log(americano + latte + sandwich * 20 );
+
+    var abs;
+    console.log(abs);
+
+    var abs2 = null;
+    console.log(abs2);
+
+    var abs3 = 0;
+    console.log(abs3);
+
+    /* 변수 선언 */
+    var coldBrew = 100;
+    var coldbrew = 100;
+    var _coldBrew;
+    var $coldbrew;
+    /* var 1coldbrew; 숫자는 안된다 */
+
+    var test = 100,
+        test2 = 200,
+    coldbrew = 4500,
+    americano = 4800;
+
+    /* 단순 의도를 명확히 하기위함 */
+    var animalName = "alpaca"; 
+    var name = "alpaca"; /* X */
+    /* 예약어 */
+    /* var for = ""; */
+    /* var if = ""; */ /* X */
+    
+
+</script>
+</body>
+</html>
